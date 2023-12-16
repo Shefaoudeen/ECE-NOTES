@@ -22,7 +22,7 @@ export default function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/notes" element={<Notes />} />
+          <Route path="/notes" element={<Notes />}></Route>
           <Route path="/cat" element={<Cat />} />
           <Route path="/previous" element={<Pyq />} />
         </Routes>
